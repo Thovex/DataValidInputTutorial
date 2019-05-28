@@ -34,7 +34,6 @@ public:
 		TMap<const AActor*, FString> Errors;
 
 	void Training( );
-	void ButtonPress();
 
 protected:
 	virtual void BeginPlay() override;
@@ -53,8 +52,6 @@ private:
 
 	void MapChildren();
 	void UpdateMatrix();
-
-	void FillEmptyData();
 
 	bool SelectedCheck();
 
